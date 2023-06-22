@@ -43,4 +43,6 @@ export function App() {
         <Statistics good={good} neutral={neutral} bad={bad} total={countTotalFeedback()} percentage={countPositiveFeedbackPercentage()} /> : <Notification message="There is no feedback" />}
       </Section>
     </div>)
-  }
+}
+  
+// ldesd
